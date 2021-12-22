@@ -20,5 +20,8 @@ if (randomNumber1 > randomNumber2) {
 } else if (randomNumber1 < randomNumber2) {
     document.querySelector("h2").innerHTML = playertwoname + " Has Won The Match";
 } else {
-    document.querySelector("h2").innerHTML = "It's a Draw. Try Spinning Again!"
+    document.querySelector("h2").innerHTML = "It's a Draw. Try Spinning Again!";
 }
+
+document.querySelectorAll("h3")[0].innerHTML = playeronename;
+document.querySelectorAll("h3")[1].innerHTML = playertwoname;
